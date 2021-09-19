@@ -1,0 +1,133 @@
+import UIKit
+import SwiftUI
+import WebKit
+
+var greeting = "Hello, playground"
+
+let x: Int = 100
+let y: Float = 198.5
+let f: Double = 1363.42322323
+let boolValue: Bool = true
+var boolvaluesecond: Bool = false,
+    if boolvaluesecond == true
+
+let strthird: String = "SwiftBook"
+let charfourth: Character = "S"
+
+var vm: Int = 3
+if vm == 3 {
+    vm = 2
+} else if vm == 4 {
+    vm = 6
+
+}
+
+
+
+let vmreal: Int = 123
+switch vmreal {
+
+case 10:print(10)
+case 20:print(20)
+case 30:print(30)
+default: print(vmreal)
+
+}
+
+var a = 12
+var b = 3
+
+var vmaka = a % b
+
+
+func writeLetter() {
+    ___
+    ---
+    ---
+}
+writeletter
+
+
+let x = 1
+let u = 3
+let t = 5
+print (x + u + t)
+
+func findSum() {
+
+    let x = 1
+    let u = 3
+    let t = 5
+//    print (x + u + t)
+//}
+//findSum() //вызов данной функции
+//findSum()
+//findSum()
+
+
+func findSumRepeat(a: Int, b: Int, c: Int) -> Int {
+    return a + b + c
+}
+let sum = findSumRepeat(a: x, b: u, c: t)
+
+sum
+
+let n = 1
+let str = "Это строка номер: \(n)"
+
+print(str)
+/*
+
+*/
+
+let scale: Int = 232
+
+func searchScale() {
+    let x = 130
+    print(x)
+    print(scale)
+}
+//print(x) //not worked
+print(scale)
+
+
+first
+var w = 0
+repeat {
+    w++
+    print(x)
+} while w <= 2
+// итерация - это одно прохождение цикла
+
+//second
+var q = 33
+while q <= 66 {
+    q++
+    print(q)
+}
+
+third
+
+for h = 0, h <= 4; h++ {
+    print(h)
+}
+
+fifth - for in
+
+for d in 0...7 {
+    print(d)
+}
+
+ Массивы - упорядоченноя коллекция однотипных элементов.
+     - хранит определенный тип
+     - может повторятся
+     - значения хранятся в строгом порядке
+let arrayOfInt:[Int] = [1,3,4,5] //индексы: 0 1 2 3
+let arrayOfStrings:[String] = ["City","Car","Peoples"] //индексы 0 1 2
+ Словари - неупорядоченная коллекция, которая хранит в себе значения с уникальным ключем.
+ Множества - неупорядоченная коллекция , которая хранит в себе только уникальные значения одного типа.
+
+[String : String]
+[Int : String]
+
+nil = отсутствие значения
